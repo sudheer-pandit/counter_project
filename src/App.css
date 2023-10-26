@@ -1,0 +1,89 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.footer{
+  background-color: lightblue;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 6px;
+
+}
+.chai{
+  background-color: aqua;
+  color: black;
+  font-family: sans-serif;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  padding: 4px;
+  text-transform: capitalize;
+
+}
+.code{
+  background-color: lightgreen;
+  color: black;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  
+}
+.value{
+  background-color: green;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  box-shadow: 2px 2px 2px  rgba(209, 194, 194, 0.2);
+}
+.remove{
+  background-color: green;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  box-shadow: 2px 2px 2px  rgba(209, 194, 194, 0.2);
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
